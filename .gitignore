@@ -1,3 +1,5 @@
 .netrwhist
+_backup/
+_temp/
 *.swp
 .DS_Store
