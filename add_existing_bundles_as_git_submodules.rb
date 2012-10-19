@@ -4,5 +4,5 @@ Dir.glob("./bundle/*") do |git_dir|
  url = $1 
  puts "Removing #{git_dir}, adding submodule for #{url}."
  puts output
-# `rm -rf #{git_dir} && git rm #{git_dir}  && git commit -m "Removed #{git_dir}: auto-message." && git submodule add #{url} #{git_dir}`
+ `rm -rf #{git_dir} && git rm #{git_dir}  && git commit -m "Removed #{git_dir}: auto-message." && git submodule add #{url} #{git_dir}`
 end

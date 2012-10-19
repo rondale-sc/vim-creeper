@@ -25,3 +25,9 @@
 [submodule "bundle/sexy-railscasts-theme"]
 	path = bundle/sexy-railscasts-theme
 	url = https://github.com/oguzbilgic/sexy-railscasts-theme.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/bundler"]
+	path = bundle/bundler
+	url = git://github.com/tpope/vim-bundler.git
