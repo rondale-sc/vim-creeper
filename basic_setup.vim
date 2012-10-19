@@ -11,8 +11,6 @@ noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
 
-" Change vim directory to whatever file I'm editing
-set autochdir
 
 " *** Deal with whitespace tabs are evil ***
 set expandtab
