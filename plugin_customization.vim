@@ -1,2 +1,3 @@
-" Tagbar toggle
-map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+" Refresh Ctags
+map <Leader>rtt :!ctags --extra=+f -R *<CR><CR>
+map <Leader>rt :TagbarToggle<CR><CR>
