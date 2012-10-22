@@ -3,3 +3,7 @@ _backup/
 _temp/
 *.swp
 .DS_Store
+.twitter_user_and_password.vim
+
+.tags
+.VimBallRecord
