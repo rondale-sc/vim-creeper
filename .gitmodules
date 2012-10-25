@@ -37,3 +37,18 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/HTML-AutoCloseTag"]
+	path = bundle/HTML-AutoCloseTag
+	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
+[submodule "bundle/autoclose.vim"]
+	path = bundle/autoclose.vim
+	url = https://github.com/Townk/vim-autoclose.git
+[submodule "bundle/endwise.vim"]
+	path = bundle/endwise.vim
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "bundle/twitvim.vim"]
+	path = bundle/twitvim.vim
+	url = https://github.com/vim-scripts/TwitVim.git
+[submodule "bundle/molokai.color"]
+	path = bundle/molokai.color
+	url = https://github.com/tomasr/molokai

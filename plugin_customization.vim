@@ -5,6 +5,9 @@ map <Leader>rtt :TagbarToggle<CR><CR>
 " Set NERDTreeToggle to leader p
 map <Leader>p :NERDTreeToggle<CR><CR>
 
+" CtrlP
+map <C-b> :CtrlPBuffer<CR>
+
 " Twitvim setup
 source ~/.vim/.twitter_user_and_password.vim
 nnoremap <F8> :FriendsTwitter<cr>

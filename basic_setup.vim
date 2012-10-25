@@ -26,8 +26,8 @@ set laststatus=2
 
 set statusline=   " clear the statusline for when vimrc is reloaded
 set statusline+=%-3.3n\                      " buffer number
-set statusline+=%{rvm#statusline()}\\=>\ \   " Display RVM information on status line
 set statusline+=%f\                          " file name
+set statusline+=%{rvm#statusline()}\   " Display RVM information on status line
 set statusline+=%h%m%r%w                     " flags
 set statusline+=[%{strlen(&ft)?&ft:'none'},  " filetype
 set statusline+=%{strlen(&fenc)?&fenc:&enc}, " encoding
