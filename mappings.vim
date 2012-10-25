@@ -20,3 +20,6 @@ map <C-b> :CtrlPBuffer<CR>
 
 nnoremap <F8> :FriendsTwitter<cr>
 nnoremap <S-F8> :UserTwitter<cr>
+
+" bind control-l to hashrocket
+imap <C-l> <Space>=><Space>
