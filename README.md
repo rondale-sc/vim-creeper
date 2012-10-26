@@ -47,9 +47,8 @@ To remove a submodule you need to:
 - [vim-bundler](https://github.com/tpope/vim-bundler) - Tim Pope's bundler plugin offers syntax highlighting for Gemfile and Gemfile.lock.  Also, lets you use some common bundler commands like `bundle edit`.
                  
 - [Ctrl-P](https://github.com/kien/ctrlp.vim) - Ctrl-P is the plugin I find most necessary on any install of Vim.  It let's you navigate around within a project or between your buffers with ease
-
-**Custom** 
-`<leader> b` - :CtrlPBuffer which opens the plugin with the buffer toggle switched on.
+  **Custom** 
+  `<leader> b` - :CtrlPBuffer which opens the plugin with the buffer toggle switched on.
                  
 - [endwise.vim](https://github.com/tpope/vim-endwise.git) - Endwise is a lot like autoclose but works for method definitions and other programming structures.
 
@@ -59,11 +58,10 @@ To remove a submodule you need to:
 
 - [Tabular](https://github.com/godlygeek/tabular) -Lets you align things based on a given pattern.  Useful for aligning hashes and other structured data.
 
-- [Tagbar](https://github.com/majutsushi/tagbar) - Tagbar lets you browse tags in source files.  It requires that you have CTAGS setup on your machine. 
-
-**Custom** 
-`<leader>rt` - Set to refresh tags
-`<leader>rtt` - Toggles the tag browser.  Will default open on the right, which happens to be the opposite of NERDTree.  
+- [Tagbar](https://github.com/majutsushi/tagbar) - Tagbar lets you browse tags in source files.  It requires that you have CTAGS setup on your machine.  
+  **Custom** 
+  `<leader>rt` - Set to refresh tags
+  `<leader>rtt` - Toggles the tag browser.  Will default open on the right, which happens to be the opposite of NERDTree.  
 
 - [TwitVim](https://github.com/vim-scripts/TwitVim) - Twitvim is a way for you to interact with Twitter without leaving your terminal.  It's really only included because I think it's fun.  It is a comprehensive plugin that you'll definitely want read up on `:help twitvim`
 
