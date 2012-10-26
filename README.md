@@ -13,7 +13,7 @@ The first decision is to use Pathogen, and git submodules.  This is a great way 
 
 ```
 # rm -rf ~/.vim ~/.vimrc ~/.gvimrc # (only if you want to override current setup)
-git clone git://github.com/rjackson/dotvim.git ~/.vim
+git clone git://github.com/rondale=sc/vim-creeper.git ~/.vim
 git submodule update --init
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
