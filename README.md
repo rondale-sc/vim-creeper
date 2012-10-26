@@ -1,7 +1,7 @@
 vim-creeper
 ==========
 
-![creeper-vim](https://github.com/rondale-sc/vim-creeper/blob/master/images/vim-creeper.png)
+![creeper-vim](https://raw.github.com/rondale-sc/vim-creeper/master/images/vim-creeper.png)
 
 Personal vim configuration.
 
