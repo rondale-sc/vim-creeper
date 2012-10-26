@@ -30,11 +30,11 @@ $ git submodule add path_to_repository .bundle/repository_name.vim
 
 To remove a submodule you need to:
 
-  Delete the relevant section from the .gitmodules file.
-  Delete the relevant section from .git/config.
-  Run git rm --cached path\_to\_submodule 
-  Commit.
-  Delete the now untracked submodule files: rm path\_to\_submodule.
+- Delete the relevant section from the .gitmodules file.
+- Delete the relevant section from .git/config.
+- Run git rm --cached path\_to\_submodule 
+- Commit.
+- Delete the now untracked submodule files: rm path\_to\_submodule.
 
 # Plugins 
 
