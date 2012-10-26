@@ -1,3 +1,5 @@
+let mapleader = ","
+
 " No arrows for you! 
 noremap  <Up> ""
 noremap! <Up> <Esc>
@@ -23,3 +25,16 @@ nnoremap <S-F8> :UserTwitter<cr>
 
 " bind control-l to hashrocket
 imap <C-l> <Space>=><Space>
+
+" Control S to save. 
+map <C-s> <Esc>:w<CR>
+imap <C-s> <Esc>:w<CR>
+
+" Display git blame status for lines selected in visual mode
+vmap <Leader>b :<C-U>!git blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
+
+" Edit another file in the same directory as the current file
+" uses expression to extract path from current file's path
+map <Leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
+map <Leader>s :split <C-R>=expand("%:p:h") . '/'<CR>
+map <Leader>v :vnew <C-R>=expand("%:p:h") . '/'<CR>
