@@ -1,19 +1,17 @@
-vim-config
+vim-creeper
 ==========
+
+![creeper-vim](https://github.com/rondale-sc/vim-creeper/images/vim-creeper.png)
 
 Personal vim configuration.
 
 
 # An Adventure
 
-I plan on using Vim for all my text editing needs for as long as it takes to become competent in it.  I avoided using Janus because I think it would limit my ability to learn how to configure vim on my own.
-
-I've had a good amount of experience with Vi before this, but I've never used it as my primary editor.
-
-Here is the deal:
-
-- No arrows
-- No plugins that I haven't installed myself and at least somewhat understand
-- ~/.vimrc will contain comments and be kept up to date
-- plugins will be manually updated
-
+```
+# rm -rf ~/.vim ~/.vimrc ~/.gvimrc # (only if you want to override current setup)
+git clone git://github.com/rjackson/dotvim.git ~/.vim
+git submodule update --init
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
+```
