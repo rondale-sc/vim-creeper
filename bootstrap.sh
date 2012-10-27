@@ -13,10 +13,13 @@ for i in $HOME/.vim $HOME/.vimrc $HOME/.gvimrc; do
 done
 
 # Clone Vim Creeper into .vim
+echo "Cloning Vim Creeper."
 git clone  https://github.com/rondale-sc/vim-creeper.git $HOME/.vim \
   || die "Could not clone the repository to ${HOME}/.vim"
 
+echo "Linking .vimrc and .gvimrc.
 ln -s $HOME/.vim/vimrc $HOME/.vimrc
 ln -s $HOME/.vim/gvimrc $HOME/.gvimrc
 
-git submodule foreach git pul origin master
+echo "Updating submodules."
+cd $HOME/.vim && git submodule foreach git pull origin master
