@@ -22,4 +22,4 @@ ln -s $HOME/.vim/vimrc $HOME/.vimrc
 ln -s $HOME/.vim/gvimrc $HOME/.gvimrc
 
 echo "Updating submodules."
-cd $HOME/.vim && git submodule foreach git pull origin master
+cd $HOME/.vim && git submodule update --init 
