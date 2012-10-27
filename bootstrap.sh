@@ -17,7 +17,7 @@ echo "Cloning Vim Creeper."
 git clone  https://github.com/rondale-sc/vim-creeper.git $HOME/.vim \
   || die "Could not clone the repository to ${HOME}/.vim"
 
-echo "Linking .vimrc and .gvimrc.
+echo "Linking .vimrc and .gvimrc."
 ln -s $HOME/.vim/vimrc $HOME/.vimrc
 ln -s $HOME/.vim/gvimrc $HOME/.gvimrc
 
