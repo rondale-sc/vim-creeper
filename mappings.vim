@@ -23,11 +23,8 @@ map <C-b> :CtrlPBuffer<CR>
 nnoremap <F8> :FriendsTwitter<cr>
 nnoremap <S-F8> :UserTwitter<cr>
 
-" bind control-l to hashrocket
-imap <C-l> <Space>=><Space>
-
 " Control S to save. 
-map <C-s> <Esc>:w<CR>
+map  <C-s> <Esc>:w<CR>
 imap <C-s> <Esc>:w<CR>
 
 " Display git blame status for lines selected in visual mode
