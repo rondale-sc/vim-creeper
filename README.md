@@ -63,8 +63,6 @@ To remove a submodule you need to:
   `<leader>rt` - Set to refresh tags
   `<leader>rtt` - Toggles the tag browser.  Will default open on the right, which happens to be the opposite of NERDTree.  
 
-- [TwitVim](https://github.com/vim-scripts/TwitVim) - Twitvim is a way for you to interact with Twitter without leaving your terminal.  It's really only included because I think it's fun.  It is a comprehensive plugin that you'll definitely want read up on `:help twitvim`
-
 - [vim-ruby-refactoring](https://github.com/ecomba/vim-ruby-refactoring) - An absolutely awesome plugin that lets you do some automatic code refactoring.  Like abstracting a method.  Very very fun, and useful when you've gotten used to using it
 
 - [EasyMotion](https://github.com/Lokaltog/vim-easymotion) A convenient way to move around inside your current file.  Just type `<leader><leader> <motion>` and it'll give you options to jump to whatever motion you typed.  So leader leader w will highlight the next few words and allow you to jump directly to them.

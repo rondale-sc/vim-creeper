@@ -20,9 +20,6 @@ map <Leader>p :NERDTreeToggle<CR><CR>
 " CtrlP
 map <C-b> :CtrlPBuffer<CR>
 
-nnoremap <F8> :FriendsTwitter<cr>
-nnoremap <S-F8> :UserTwitter<cr>
-
 " Control S to save. 
 map  <C-s> <Esc>:w<CR>
 imap <C-s> <Esc>:w<CR>
