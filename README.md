@@ -41,6 +41,29 @@ To remove a submodule you need to:
 - Commit.
 - Delete the now untracked submodule files: rm path\_to\_submodule.
 
+# Basic Setup
+
+Please review [basic_setup.vim](https://github.com/rondale-sc/vim-creeper/blob/master/basic_setup.viml) for more information but a few notable defaults are:
+
+- Sets tab width two 2 and sets it to softtab (only spaces) 
+- Show line numbers, line/column
+- Ignores version control files, and archive files 
+- Sets backup directories, and swap directory.
+
+# Mappings
+***the <leader> key has been bound to ','***
+
+Review [mappings.vim](https://github.com/rondale-sc/vim-creeper/blob/master/mappings.vim) for more information.  
+
+A few notable binds are:
+
+- Unbind arrow keys
+- <leader> p = NERDTree toggle, which defaults to close
+- <C-p> = Control-P
+- <C-p> = Control-P with buffer toggle switched on
+- <leader> e = Edit another file in same directory as current file
+- <leader> s = Same as above, but in a split pane
+
 # Plugins 
 
 - [HTML-AutoCloseTag](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags once you finish typing `>`.  Very useful for editing HTML documents.
