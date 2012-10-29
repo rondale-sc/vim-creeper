@@ -3,13 +3,20 @@ Vim Creeper
 
 ![creeper-vim](https://raw.github.com/rondale-sc/vim-creeper/master/images/vim-creeper.png)
 
-Vim Creeper is a group of decisions meant to help a new developer get into command-line vim.   These decisions are going to be about plugins, the contents of vimrc, and the method which they are packaged. Within this README you'll find all you need to know to get started with Vim Creeper.  
+Vim Creeper is a full developer environment for vim wrapped up with a nice little bow on top.  Many of the decisions, about what plugins, colorscheme, et al, are defined based off personal tastes.  Which is why we've made Vim Creeper customisable.  Vim Creeper's design has been influenced by [Janus](https://github.com/carlhuda/janus), and [SPF-13](https://github.com/spf13/spf13-vim) though we've gone with Janus's concept of using git submodules rather than vundle.
 
-The name Vim Creeper was made because this will be an ongoing effort to keep this repo up to date, and as I learn more about what types of additions to Vim are beneficial and fun I'll let them creep in.
+Vim Creeper is an ongoing effort to reflect the best environment for Vim as defined by its user base.  Currently that's me, so talk to me, submit a pull request, and we'll get this ship moving in the right direction.
 
-The first decision is to use Pathogen, and git submodules.  This is a great way to store these bundles and keep them up to date with little trouble.  The downside is that removing a bundle takes a little bit of work because there is no `git submodule rm repo` command.
 
 # Installation
+Assuming your box has bash, curl, and git installed already you can run the boostrap script like so:
+
+```
+curl https://raw.github.com/rondale-sc/vim-creeper/master/bootstrap.sh | bash
+```
+If you are less the trusting sort and would like to set it up manually...
+
+The hard way:
 
 ```
 # rm -rf ~/.vim ~/.vimrc ~/.gvimrc # (only if you want to override current setup)
@@ -23,9 +30,7 @@ ln -s ~/.vim/gvimrc ~/.gvimrc
 To add your own plugins all you have to do if find a github repository that contains your plugin and then run the following command:
 
 ```
-# Remember to sub path_to_repository with your plugin's URL
-# AND to sub out repository_name with what you'd like to call it. 
-$ git submodule add path_to_repository .bundle/repository_name.vim
+git submodule add path_to_repository .bundle/repository_name.vim
 ```
 
 To remove a submodule you need to:
