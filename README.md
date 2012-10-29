@@ -60,7 +60,7 @@ A few notable binds are:
 - Unbind arrow keys
 - leader p = NERDTree toggle, which defaults to close
 - C-p = Control-P
-- C-p = Control-P with buffer toggle switched on
+- C-b = Control-P with buffer toggle switched on
 - leader e = Edit another file in same directory as current file
 - leader s = Same as above, but in a split pane
 
