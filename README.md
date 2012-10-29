@@ -3,7 +3,7 @@ Vim Creeper
 
 ![creeper-vim](https://raw.github.com/rondale-sc/vim-creeper/master/images/vim-creeper.png)
 
-Vim Creeper is a full developer environment for vim wrapped up with a nice little bow on top.  Many of the decisions, about what plugins, colorscheme, et al, are defined based off personal tastes.  Which is why we've made Vim Creeper customisable.  Vim Creeper's design has been influenced by [Janus](https://github.com/carlhuda/janus), and [SPF-13](https://github.com/spf13/spf13-vim) though we've gone with Janus's concept of using git submodules rather than vundle.
+Vim Creeper is a full developer environment for vim wrapped up with a nice little bow on top.  Many of the decisions, about what plugins, colorscheme, et al, are defined based off personal tastes.  Which is why we've made Vim Creeper customisable.  Vim Creeper's design has been influenced by [Janus](https://github.com/carlhuda/janus), and [SPF-13](https://github.com/spf13/spf13-vim) though we've gone with Janus's concept of using git submodules and pathogen rather than vundle.
 
 Vim Creeper is an ongoing effort to reflect the best environment for Vim as defined by its user base.  Currently that's me, so talk to me, submit a pull request, and we'll get this ship moving in the right direction.
 
@@ -60,7 +60,7 @@ A few notable binds are:
 - Unbind arrow keys
 - leader p = NERDTree toggle, which defaults to close
 - C-p = Control-P
-- C-p = Control-P with buffer toggle switched on
+- C-b = Control-P with buffer toggle switched on
 - leader e = Edit another file in same directory as current file
 - leader s = Same as above, but in a split pane
 
