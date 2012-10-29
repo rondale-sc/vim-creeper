@@ -96,3 +96,7 @@ A few notable binds are:
 - [EasyMotion](https://github.com/Lokaltog/vim-easymotion) A convenient way to move around inside your current file.  Just type `<leader><leader> <motion>` and it'll give you options to jump to whatever motion you typed.  So leader leader w will highlight the next few words and allow you to jump directly to them.
 
 - [Matchit](https://github.com/tsaleh/vim-matchit) - Matchit lets you use % to flip between matching tags in more formats.  
+
+## License
+
+See [LICENSE](https://github.com/rondale-sc/vim-creeper/blob/master/LICENSE)
