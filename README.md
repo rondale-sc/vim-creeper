@@ -51,18 +51,18 @@ Please review [basic_setup.vim](https://github.com/rondale-sc/vim-creeper/blob/m
 - Sets backup directories, and swap directory.
 
 # Mappings
-***the <leader> key has been bound to ','***
+***the leader key has been bound to ','***
 
 Review [mappings.vim](https://github.com/rondale-sc/vim-creeper/blob/master/mappings.vim) for more information.  
 
 A few notable binds are:
 
 - Unbind arrow keys
-- <leader> p = NERDTree toggle, which defaults to close
-- <C-p> = Control-P
-- <C-p> = Control-P with buffer toggle switched on
-- <leader> e = Edit another file in same directory as current file
-- <leader> s = Same as above, but in a split pane
+- leader p = NERDTree toggle, which defaults to close
+- C-p = Control-P
+- C-p = Control-P with buffer toggle switched on
+- leader e = Edit another file in same directory as current file
+- leader s = Same as above, but in a split pane
 
 # Plugins 
 
