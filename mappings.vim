@@ -1,5 +1,3 @@
-let mapleader = ","
-
 " No arrows for you! 
 noremap  <Up> ""
 noremap! <Up> <Esc>
