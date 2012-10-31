@@ -14,7 +14,6 @@ set vb
 " always display laststatus 
 set laststatus=2
 
-
 set statusline=   " clear the statusline for when vimrc is reloaded
 set statusline+=%-3.3n\                      " buffer number
 set statusline+=%f\                          " file name
@@ -45,7 +44,7 @@ set cursorline     " Highlights currently selected line
 set scrolloff=5    " Give me some space when I get to the bottom of the document.
 
 set listchars=""       " Reset listchars
-set listchars=tab:\ \  " a tab should display as  "  ", trailing whitespace as a "."
+set listchars=tab:▸\ ,eol:¬ " Use the same symbols as TextMate for tabstops and EOLs (credit vimcasts)
 set listchars+=trail:. " ''
 
 ""

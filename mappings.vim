@@ -8,6 +8,10 @@ noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
 
+
+" Shortcut to rapidly toggle `set list` (credit vimcasts)
+nmap <leader>l :set list!<CR>
+
 " Refresh Ctags
 map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
 map <Leader>rtt :TagbarToggle<CR><CR>
