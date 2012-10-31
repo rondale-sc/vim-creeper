@@ -9,6 +9,7 @@ source ~/.vim/basic_setup.vim
 source ~/.vim/typos.vim
 source ~/.vim/plugin_customization.vim
 source ~/.vim/mappings.vim
+source ~/.vim/auto_command.vim
 
 set background=dark
 set t_Co=256
