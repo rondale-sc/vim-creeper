@@ -97,6 +97,7 @@ A few notable binds are:
 
 - [Matchit](https://github.com/tsaleh/vim-matchit) - Matchit lets you use % to flip between matching tags in more formats.  
 
+- [Vim Fugitive](https://github.com/tpope/vim-fugitive) - Vim and Git integration.
 ## License
 
 See [LICENSE](https://github.com/rondale-sc/vim-creeper/blob/master/LICENSE)
