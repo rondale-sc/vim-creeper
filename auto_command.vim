@@ -15,6 +15,9 @@ if has("autocmd")
   " Treat .rss files as XML
   autocmd BufNewFile,BufRead *.rss setfiletype xml
   
+  " Sources .vimrc file on save.
+  autocmd bufwritepost .vimrc source $MYVIMRC
+  
   " Strip trailing whitespace on save
   autocmd BufWritePre .vimrc,*.rb,*.py,*.js :call <SID>StripTrailingWhitespaces()
 endif
