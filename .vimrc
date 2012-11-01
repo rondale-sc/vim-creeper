@@ -11,6 +11,12 @@ source ~/.vim/config/plugin_customization.vim
 source ~/.vim/config/mappings.vim
 source ~/.vim/config/auto_command.vim
 
+"###########################################################
+"####  This is where user specific configuration goes.  ####
+"#### overwrite whatever settings you care to here.     ####
+"###########################################################
+source ~/.vim/.vimrc.custom
+
 set background=dark
 set t_Co=256
 color molokai

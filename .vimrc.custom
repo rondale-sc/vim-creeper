@@ -1,0 +1,25 @@
+"#################### Custom User Settings ######################
+"################################################################
+"## Set custom functionality here.  Below are common commands
+"## that you might want to change.
+"##
+"## syntax on          syntax highlighing
+"## set number         show line numbers
+"## set ruler          show the cursor position all the time
+"## set ignorecase     ignore case when searching
+"## set hlsearch       highlight searches
+"## set tabstop=4      number of spaces of tab character
+"## set shiftwidth=4   number of spaces to (auto)indent
+"## set autoindent     always set auto indenting on
+"## set smartindent    smart indent
+"## set cindent        cindent                                                            
+"##                             
+"## The above commands are all set currently to values that 
+"## shouldn't need altering, but if you want to change them do so
+"## here.
+"## 
+"## You can make any changes to your configuration here and, 
+"## since this is sourced after all the default settings, they'll
+"## be honored.
+"## 
+"################################################################
