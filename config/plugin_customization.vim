@@ -13,5 +13,3 @@ map <leader>gp :Git push<CR>
 set completefunc=syntaxcomplete#Complete
 
 let g:neocomplcache_enable_at_startup = 1
-
-imap <expr><Tab>    neocomplcache#sources#snippets_complete#expandable() ? "\<Plug>(neocomplcache_snippets_expand)" : "\<C-n>"
