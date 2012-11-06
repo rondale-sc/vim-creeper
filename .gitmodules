@@ -70,9 +70,6 @@
 [submodule "bundle/vroom.vim"]
 	path = bundle/vroom.vim
 	url = https://github.com/skalnik/vim-vroom.git
-[submodule "bundle/snipmate.vim"]
-	path = bundle/snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
 [submodule "bundle/snipmap-snippets.vim"]
 	path = bundle/snipmap-snippets.vim
 	url = https://github.com/honza/snipmate-snippets.git
