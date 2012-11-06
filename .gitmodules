@@ -61,3 +61,12 @@
 [submodule "bundle/fugitive.vim"]
 	path = bundle/fugitive.vim
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/minitest.vim"]
+	path = bundle/minitest.vim
+	url = https://github.com/sunaku/vim-ruby-minitest.git
+[submodule "bundle/neocomplcache.vim"]
+	path = bundle/neocomplcache.vim
+	url = https://github.com/Shougo/neocomplcache.git
+[submodule "bundle/vroom.vim"]
+	path = bundle/vroom.vim
+	url = https://github.com/skalnik/vim-vroom.git
