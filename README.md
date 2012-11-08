@@ -98,6 +98,8 @@ A few notable binds are:
 - [Matchit](https://github.com/tsaleh/vim-matchit) - Matchit lets you use % to flip between matching tags in more formats.  
 
 - [Vim Fugitive](https://github.com/tpope/vim-fugitive) - Vim and Git integration.
+
+- [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Nice little plugin that let's you zoom into a specific pane and toggle back to your setup without having to reset the window.
 ## License
 
 See [LICENSE](https://github.com/rondale-sc/vim-creeper/blob/master/LICENSE)
