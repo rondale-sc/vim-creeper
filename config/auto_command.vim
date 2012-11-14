@@ -20,6 +20,13 @@ if has("autocmd")
   
   " Strip trailing whitespace on save
   autocmd BufWritePre .vimrc,*.rb,*.py,*.js :call <SID>StripTrailingWhitespaces()
+
+
+  " Jump to last cursor position unless it's invalid or in an event handler
+  autocmd BufReadPost *
+        \ if line("'\"") > 0 && line("'\"") <= line("$") |
+        \   exe "normal g`\"" |
+        \ endif
 endif
 
 " ********************************* Functions ********************************* 
