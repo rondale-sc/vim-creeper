@@ -93,8 +93,6 @@ A few notable binds are:
 
 - [vim-ruby-refactoring](https://github.com/ecomba/vim-ruby-refactoring) - An absolutely awesome plugin that lets you do some automatic code refactoring.  Like abstracting a method.  Very very fun, and useful when you've gotten used to using it
 
-- [EasyMotion](https://github.com/Lokaltog/vim-easymotion) A convenient way to move around inside your current file.  Just type `<leader><leader> <motion>` and it'll give you options to jump to whatever motion you typed.  So leader leader w will highlight the next few words and allow you to jump directly to them.
-
 - [Matchit](https://github.com/tsaleh/vim-matchit) - Matchit lets you use % to flip between matching tags in more formats.  
 
 - [Vim Fugitive](https://github.com/tpope/vim-fugitive) - Vim and Git integration.
