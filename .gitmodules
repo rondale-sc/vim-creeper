@@ -10,9 +10,6 @@
 [submodule "bundle/tagbar.vim"]
 	path = bundle/tagbar.vim
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "bundle/vim-easymotion"]
-	path = bundle/vim-easymotion
-	url = https://github.com/Lokaltog/vim-easymotion.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
