@@ -8,6 +8,11 @@ noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
 
+" Move around splits with <c-hjkl>
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
 
 " Shortcut to rapidly toggle `set list` (credit vimcasts)
 nmap <leader>l :set list!<CR>

@@ -1,6 +1,3 @@
-" Twitvim setup
-source ~/.vim/.twitter_user_and_password.vim
-
 " Fugitive leaders
 map <leader>gb :Gblame<CR>
 map <leader>gs :Gstatus<CR>
@@ -12,4 +9,19 @@ map <leader>gp :Git push<CR>
 " Setup for vim-ruby-minitest
 set completefunc=syntaxcomplete#Complete
 
+" Setup NeoComplCache
 let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_camel_case_completion = 1
+let g:neocomplcache_enable_smart_case = 1
+let g:neocomplcache_enable_underbar_completion = 1
+let g:neocomplcache_min_syntax_length = 3
+let g:neocomplcache_enable_auto_delimiter = 1
+let g:neocomplcache_max_list = 10
+let g:neocomplcache_auto_completion_start_length = 3
+let g:neocomplcache_force_overwrite_completefunc = 1
+
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><s-CR> pumvisible() ? neocomplcache#close_popup()"\<CR>" : "\<CR>"
+inoremap <expr><CR>  pumvisible() ? neocomplcache#close_popup() : "\<CR>"
+inoremap <expr><BS> neocomplcache#smart_close_popup()."\<C-h>"
+inoremap <expr><C-y>  neocomplcache#close_popup()"
