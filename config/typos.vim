@@ -37,3 +37,4 @@ iab Taht       That
 iab taht       that
 iab Teh        The
 iab teh        the
+iab destory    destroy
