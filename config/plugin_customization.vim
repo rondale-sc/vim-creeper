@@ -20,6 +20,26 @@ let g:neocomplcache_max_list = 10
 let g:neocomplcache_auto_completion_start_length = 3
 let g:neocomplcache_force_overwrite_completefunc = 1
 
+
+let g:neocomplcache_enable_cursor_hold_i=1
+let g:neocomplcache_cursor_hold_i_time=300
+autocmd InsertEnter * call s:on_insert_enter()
+
+function! s:on_insert_enter()
+  if &updatetime > g:neocomplcache_cursor_hold_i_time
+    let s:update_time_save = &updatetime
+    let &updatetime = g:neocomplcache_cursor_hold_i_time
+  endif
+endfunction
+
+autocmd InsertLeave * call s:on_insert_leave()
+
+function! s:on_insert_leave()
+  if &updatetime < s:update_time_save
+    let &updatetime = s:update_time_save
+  endif
+endfunction
+
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><s-CR> pumvisible() ? neocomplcache#close_popup()"\<CR>" : "\<CR>"
 inoremap <expr><CR>  pumvisible() ? neocomplcache#close_popup() : "\<CR>"
