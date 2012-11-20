@@ -68,6 +68,8 @@ A few notable binds are:
 
 - [HTML-AutoCloseTag](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags once you finish typing `>`.  Very useful for editing HTML documents.
 
+- [Auto-Pair](https://github.com/jiangmiao/auto-pairs) - Minialistic Auto close.  Pairs parens, brackets, quotes, et al. 
+
 - [ack.vim](https://github.com/mileszs/ack.vim) - Lets you search for stuff in your current directory.  Basically use this to find any occurences of a given string in a project folder.
 
 - [vim-bundler](https://github.com/tpope/vim-bundler) - Tim Pope's bundler plugin offers syntax highlighting for Gemfile and Gemfile.lock.  Also, lets you use some common bundler commands like `bundle edit`.
