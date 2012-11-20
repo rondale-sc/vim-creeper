@@ -1,8 +1,5 @@
 let mapleader = ","
 
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
-
 " *** Deal with whitespace tabs are evil ***
 set expandtab
 set shiftwidth=2
