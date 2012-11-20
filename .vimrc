@@ -8,8 +8,8 @@ filetype plugin indent on
 source ~/.vim/config/basic_setup.vim
 source ~/.vim/config/typos.vim
 source ~/.vim/config/plugin_customization.vim
-source ~/.vim/config/mappings.vim
 source ~/.vim/config/auto_command.vim
+source ~/.vim/config/mappings.vim
 
 "###########################################################
 "####  This is where user specific configuration goes.  ####

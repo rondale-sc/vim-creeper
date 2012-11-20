@@ -41,11 +41,17 @@ set encoding=utf-8 " Set encoding default to UTF-8
 set history=200    " Store a lot of history! 
 set cursorline     " Highlights currently selected line
 
-set scrolloff=5    " Give me some space when I get to the bottom of the document.
+set scrolloff=3    " Give me some space when I get to the bottom of the document.
 
 set listchars=""       " Reset listchars
 set listchars=tab:▸\ ,eol:¬ " Use the same symbols as TextMate for tabstops and EOLs (credit vimcasts)
 set listchars+=trail:. " ''
+
+" Gary Bernhardt's split style
+set winwidth=84
+set winheight=5
+set winminheight=5
+set winheight=999
 
 ""
 "" Searching
