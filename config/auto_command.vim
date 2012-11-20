@@ -76,4 +76,3 @@ function! MapCR()
     nnoremap <cr> :nohlsearch<cr>
   endfunction
   call MapCR()
-  nnoremap <leader><leader> <c-^

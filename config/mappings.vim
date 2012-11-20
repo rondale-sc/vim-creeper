@@ -14,9 +14,6 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
-" Shortcut to rapidly toggle `set list` (credit vimcasts)
-nmap <leader>l :set list!<CR>
-
 " Refresh Ctags
 map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
 map <Leader>rtt :TagbarToggle<CR><CR>
@@ -34,6 +31,8 @@ imap <C-s> <Esc>:w<CR>
 " Display git blame status for lines selected in visual mode
 vmap <Leader>b :<C-U>!git blame <C-R>=expand("%:p") <CR> \| sed -n <C-R>=line("'<") <CR>,<C-R>=line("'>") <CR>p <CR>
 
+cnoremap %% <C-R>=expand('%:h').'/'<cr>
+
 " Edit another file in the same directory as the current file
 " uses expression to extract path from current file's path
 map <Leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
@@ -47,3 +46,6 @@ nmap <Leader>a> :Tabularize /=><CR>
 vmap <Leader>a> :Tabularize /=><CR>
 
 nmap <silent> <leader>s :set spell!<CR>
+
+" Let's you easily toggle between buffers
+nnoremap <leader><leader> <c-^>
