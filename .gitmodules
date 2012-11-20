@@ -37,9 +37,6 @@
 [submodule "bundle/HTML-AutoCloseTag"]
 	path = bundle/HTML-AutoCloseTag
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
-[submodule "bundle/autoclose.vim"]
-	path = bundle/autoclose.vim
-	url = https://github.com/Townk/vim-autoclose.git
 [submodule "bundle/molokai.color"]
 	path = bundle/molokai.color
 	url = https://github.com/tomasr/molokai

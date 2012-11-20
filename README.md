@@ -70,8 +70,6 @@ A few notable binds are:
 
 - [ack.vim](https://github.com/mileszs/ack.vim) - Lets you search for stuff in your current directory.  Basically use this to find any occurences of a given string in a project folder.
 
-- [autoclose.vim](https://github.com/Townk/vim-autoclose) - Auto  closes things like parenthesis and brackets.  
-
 - [vim-bundler](https://github.com/tpope/vim-bundler) - Tim Pope's bundler plugin offers syntax highlighting for Gemfile and Gemfile.lock.  Also, lets you use some common bundler commands like `bundle edit`.
                  
 - [Ctrl-P](https://github.com/kien/ctrlp.vim) - Ctrl-P is the plugin I find most necessary on any install of Vim.  It let's you navigate around within a project or between your buffers with ease
