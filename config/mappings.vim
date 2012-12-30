@@ -8,6 +8,10 @@ noremap! <Left> <Esc>
 noremap  <Right> ""
 noremap! <Right> <Esc>
 
+" use :w!! to write to a file using sudo if you forgot to 'sudo vim file'
+" " (it will prompt for sudo password when writing)
+cmap w!! %!sudo tee > /dev/null %
+
 " Move around splits with <c-hjkl>
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k

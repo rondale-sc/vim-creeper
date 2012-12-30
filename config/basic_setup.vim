@@ -42,6 +42,9 @@ set winheight=5
 set winminheight=5
 set winheight=999
 
+" Set Backspace 
+set backspace=2
+
 ""
 "" Searching
 ""

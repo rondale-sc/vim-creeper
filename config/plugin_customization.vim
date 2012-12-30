@@ -1,6 +1,7 @@
 " Ctrl-P setup
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+map <leader>b :CtrlPBuffer<CR>
 
 " Fugitive leaders
 map <leader>gb :Gblame<CR>
