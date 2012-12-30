@@ -17,6 +17,11 @@ source ~/.vim/config/mappings.vim
 "###########################################################
 source ~/.vim/.vimrc.custom
 
-set background=dark
-set t_Co=256
-color molokai
+syntax enable
+
+set background=light
+colorscheme solarized
+
+" Test space.
+nnoremap ; :
+
