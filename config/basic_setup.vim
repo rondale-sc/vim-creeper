@@ -8,6 +8,10 @@ set softtabstop=2
 " set visual bell -- i hate that damned beeping
 set vb
 
+" Prevent Vim from clobbering the scrollback buffer. See
+" http://www.shallowsky.com/linux/noaltscreen.html
+set t_ti= t_te=
+
 " always display laststatus 
 set laststatus=2
 set statusline=%<%f\ (%{&ft})\ %-4(%m%)%=%-19(%3l,%02c%03V%)
